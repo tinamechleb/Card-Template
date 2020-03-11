@@ -1,0 +1,34 @@
+.Income-Card {
+    width: 198px;
+    height: 2.5em;
+    margin-left: 6px;
+    background-color: #ffffffce;
+    border-radius: 7px;
+}
+
+.Income-Grid {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+input {
+    width: 60px;
+    height: 19px;
+    padding: 0;
+    line-height: 0;
+    font-size: small;
+    margin-left: 6px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.edit {
+    background-color: transparent;
+    border: 0cm;
+}
+
+.delete {
+    background-color: transparent;
+    border: 0cm;
+}

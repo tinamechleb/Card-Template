@@ -1,0 +1,27 @@
+.SmallCard-Container {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 7em;
+  margin-left: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.SmallCard {
+  width: 20em;
+  height: 26em;
+  border-radius: 20px;
+  box-shadow: 10px 10px 13px 12px #03c79c4f;
+}
+
+.Rest-Of-SmallCard {
+  background-image: linear-gradient(#3fcad4, #00c979);
+  border-radius: 20px 20px 20px 20px;
+  height: 100%;
+}
+
+.Header {
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  height: 15%;
+}
