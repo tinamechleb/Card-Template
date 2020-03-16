@@ -26,3 +26,23 @@
   border-radius: 20px 20px 0px 0px;
   height: 15%;
 }
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  background-color: #ffffff;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+  border-radius: 8px 8px 0px 0px;
+}

@@ -1,17 +1,32 @@
 import React from 'react';
 import Income from './Income/Income';
+import Expenses from './Expenses/Expenses';
+import Categories from './Categories/Categories';
+import SavingGoals from './SavingGoals/SavingGoals';
+import Tabs from './Tabs/Tabs';
 import './BigCard.css';
 
 function BigCard() {
     return (
         <div className="BigCard-Container">
             <div className="BigCard">
-                <header className="Header">
-
+                <header className="Rest-Of-BigCard">
+                    <Tabs>
+                        <div label="Income">
+                            <Income />
+                        </div>
+                        <div label="Expenses">
+                            <Expenses />
+                        </div>
+                        <div label="SavingGoals">
+                            <SavingGoals />
+                        </div>
+                        <div label="Categories">
+                            <Categories />
+                        </div>
+                    </Tabs>
                 </header>
-                <div className="Rest-Of-BigCard">
-                    <Income />
-                </div>
+
             </div>
         </div>
     );
