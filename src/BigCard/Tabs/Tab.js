@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Button from './Button';
 
 class Tab extends Component {
     static propTypes = {
@@ -23,9 +24,11 @@ class Tab extends Component {
         } = this;
 
         let className = 'tab-list-item';
+        let kms = <></>
 
         if (activeTab === label) {
             className += ' tab-list-active';
+            kms = <Button />;
         }
 
         return (
@@ -34,6 +37,7 @@ class Tab extends Component {
                 onClick={onClick}
             >
                 {label}
+                {kms}
             </li>
         );
     }

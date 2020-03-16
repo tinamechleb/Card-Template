@@ -20,7 +20,6 @@
 
 .Buttons {
     display: inline-flex;
-
 }
 
 .Image {
@@ -32,7 +31,6 @@
 .Delete {
     background: url('../../../images/delete.png') no-repeat;
     background-size: 100%;
-    border: 0cm solid transparent;
     margin-left: 22px;
 }
 

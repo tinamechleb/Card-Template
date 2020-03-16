@@ -18,7 +18,7 @@ function BigCard() {
                         <div label="Expenses">
                             <Expenses />
                         </div>
-                        <div label="SavingGoals">
+                        <div label="Saving Goals">
                             <SavingGoals />
                         </div>
                         <div label="Categories">
@@ -27,7 +27,7 @@ function BigCard() {
                     </Tabs>
                 </header>
             </div>
-        </div>
+        </div >
     );
 }
 

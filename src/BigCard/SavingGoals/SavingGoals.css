@@ -1,0 +1,21 @@
+.SG-Grid {
+    width: 700px;
+    margin-top: 5px;margin-top: 5px;
+    display: grid;
+    grid-template-columns: 70% 14%;
+}
+
+.SG-Card {
+    width: 470px;
+    height: 2.5em;
+    max-height: 2.5em;
+    margin-left: 3px;
+    background-color: #ffffff7a;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+}
