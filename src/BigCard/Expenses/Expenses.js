@@ -5,12 +5,12 @@ function Expenses() {
         <>
             <div className="Income">
                 <div>
-                    <h3>Fixed incomes</h3>
+                    <h3>Fixed expenses</h3>
 
                 </div>
                 <div className="vl"></div>
                 <div>
-                    <h3>Recurring incomes</h3>
+                    <h3>Recurring expenses</h3>
 
                 </div>
             </div>
