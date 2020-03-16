@@ -9,7 +9,7 @@
 }
 
 .BigCard {
-  width: 40em;
+  width: 590px;
   height: 26em;
   border-radius: 15px;
   box-shadow: 10px 10px 13px 12px #03c79c4f;
@@ -19,6 +19,7 @@
   background-image: linear-gradient(#29b8c2, #00c979);
   border-radius: 15px;
   height: 100%;
+  width: 590px;
 }
 
 .tab-list {
@@ -27,6 +28,7 @@
   padding-left: 0;
   background-color: #ffffff;
   border-radius: 15px 15px 0px 0px;
+  font-weight: lighter;
 }
 
 .tab-list-item {
@@ -42,8 +44,11 @@
   border: solid #23bab8;
   border-width: 1px 1px 0 1px;
   border-radius: 15px 15px 0px 0px;
+  color:#ffffff;
+  font-weight: normal;
 }
 
 h3 {
+  font-weight: normal;
   color: #ffffff;
 }

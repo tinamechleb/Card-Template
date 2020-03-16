@@ -6,8 +6,8 @@ function IncomeCard() {
         <>
             <div className="Income-Grid">
                 <div className="Income-Card">
-                    <h4>Title 1</h4>
-                    <h5>800$</h5>
+                    <p className="Income-Title">Title 1</p>
+                    <p className="Income-amount">800$</p>
                 </div>
                 <div className="Buttons">
                     {/* <input className="edit" type="button" value="edit" />
