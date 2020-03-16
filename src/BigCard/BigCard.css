@@ -16,14 +16,14 @@
 }
 
 .Rest-Of-BigCard {
-  background-image: linear-gradient(#5bffef, #30d3c3);
+  background-image: linear-gradient(#29b8c2, #00c979);
   border-radius: 15px;
   height: 100%;
 }
 
 .tab-list {
   margin-top: 0;
-  border-bottom: 1px solid #55f9e9;
+  border-bottom: 1px solid #23bab8;
   padding-left: 0;
   background-color: #ffffff;
   border-radius: 15px 15px 0px 0px;
@@ -38,8 +38,8 @@
 }
 
 .tab-list-active {
-  background-color: #55f9e9;
-  border: solid #55f9e9;
+  background-color: #23bab8;
+  border: solid #23bab8;
   border-width: 1px 1px 0 1px;
   border-radius: 15px 15px 0px 0px;
 }
