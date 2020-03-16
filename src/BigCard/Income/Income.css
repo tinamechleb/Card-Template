@@ -36,3 +36,13 @@
     max-height: 300px;
     border-radius: 0 0 15px 15px;
 }
+
+.Add-Butt {
+  font-size: large;
+  font-weight: normal;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-left: 10px;
+}

@@ -26,7 +26,6 @@ function BigCard() {
                         </div>
                     </Tabs>
                 </header>
-
             </div>
         </div>
     );

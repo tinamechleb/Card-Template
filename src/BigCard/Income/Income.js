@@ -8,12 +8,12 @@ function Income() {
         <>
             <div className="Income">
                 <div>
-                    <h3>Fixed incomes</h3>
+                    <h3>Fixed incomes <button className="Add-Butt">+</button></h3>
                     <FixedIncome />
                 </div>
                 <div className="vl"></div>
                 <div>
-                    <h3>Recurring incomes</h3>
+                    <h3>Recurring incomes <button className="Add-Butt">+</button></h3>
                     <RecurringIncome />
                 </div>
             </div>
