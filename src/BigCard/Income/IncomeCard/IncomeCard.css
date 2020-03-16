@@ -1,15 +1,19 @@
 .Income-Card {
-    width: 198px;
+    width: 190px;
     height: 2.5em;
-    margin-left: 6px;
-    background-color: #ffffffce;
+    margin-left: 3px;
+    background-color: #ffffff7a;
     border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+    padding-left: 3px;
 }
 
 .Income-Grid {
     margin-top: 5px;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 68% 28%;
 }
 
 .Buttons {
@@ -18,8 +22,8 @@
 }
 
 .Image {
-    width: 28px;
-    height: 40px;
+    width: 30px;
+    height: 42px;
     margin-top: 6px;
 }
 
@@ -27,7 +31,7 @@
     background: url('../../../images/delete.png') no-repeat;
     background-size: 100%;
     border: 0cm solid transparent;
-    margin-left: 15px;
+    margin-left: 22px;
 }
 
 .Edit {

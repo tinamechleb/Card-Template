@@ -1,6 +1,4 @@
 import React from 'react';
-import Delete from '../../../images/delete.png';
-import Edit from '../../../images/pencil.png';
 import './IncomeCard.css';
 
 function IncomeCard() {
@@ -8,7 +6,8 @@ function IncomeCard() {
         <>
             <div className="Income-Grid">
                 <div className="Income-Card">
-
+                    <h4>Title 1</h4>
+                    <h5>800$</h5>
                 </div>
                 <div className="Buttons">
                     {/* <input className="edit" type="button" value="edit" />

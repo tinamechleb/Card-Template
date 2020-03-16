@@ -33,7 +33,7 @@
   display: inline-flex;
   list-style: none;
   margin-bottom: -1px;
-  padding: 1rem 1.85rem;
+  padding: 1rem 1.8rem;
 
 }
 
@@ -42,4 +42,8 @@
   border: solid #23bab8;
   border-width: 1px 1px 0 1px;
   border-radius: 15px 15px 0px 0px;
+}
+
+h3 {
+  color: #ffffff;
 }
