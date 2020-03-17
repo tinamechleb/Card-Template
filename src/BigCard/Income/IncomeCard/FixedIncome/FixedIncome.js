@@ -1,22 +1,20 @@
 import React from 'react';
-import IncomeCard from '../IncomeCard';
+import GrandIncomeCard from '../GrandIncomeCard';
 
 function FixedIncome() {
     return (
         <>
             <div className="Make-Me-Scroll">
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
             </div>
         </>
     );

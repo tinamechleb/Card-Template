@@ -1,18 +1,18 @@
 import React from 'react';
-import IncomeCard from '../IncomeCard';
+import GrandIncomeCard from '../GrandIncomeCard';
 import '../../Income.css';
 
 function RecurringIncome() {
     return (
         <>
             <div className="Make-Me-Scroll">
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
-                <IncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
+                <GrandIncomeCard />
             </div>
         </>
     );

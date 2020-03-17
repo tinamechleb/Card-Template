@@ -1,21 +1,28 @@
-import React from 'react';
+import React, { Component } from "react";
 import './IncomeCard.css';
 
-function IncomeCard() {
-    return (
-        <div className="Income-Grid">
-            <div className="Income-Card">
-                <p className="Income-Title">Title</p>
-                <p className="Income-amount">800$</p>
-            </div>
-            <div className="Buttons">
-                {/* <input className="edit" type="button" value="edit" />
+
+class IncomeCard extends Component {
+
+
+    render() {
+
+        return (
+            <div className="Income-Grid">
+                <div className="Income-Card">
+                    <p className="Income-Title">Title</p>
+                    <p className="Income-amount">800$</p>
+                </div>
+                <div className="Buttons">
+                    {/* <input className="edit" type="button" value="edit" />
                     <input className="delete" type="button" value="delete" /> */}
-                <div className="Image Delete" />
-                <div className="Image Edit" />
+                    <div className="Image Delete" />
+                    <div className="Image Edit" />
+                </div>
             </div>
-        </div>
-    );
+
+        );
+    }
 }
 
 export default IncomeCard;
