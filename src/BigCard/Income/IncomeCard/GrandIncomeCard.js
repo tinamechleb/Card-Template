@@ -44,7 +44,11 @@ class GrandIncomeCard extends Component {
                         </Accordion.Title>
                         <Accordion.Content active={activeIndex === 1}>
                             <p className="surprise">
-                                surprise
+                                <p className="description">Description Atque porro mollitia eos similique est ipsa architecto. Reprehenderit est suscipit et.</p>
+                                <div className="catndate">
+                                    <p className="cat">category</p>
+                                    <p className="date-of-income">dd/mm/yy</p>
+                                </div>
                             </p>
                         </Accordion.Content>
                     </Accordion>

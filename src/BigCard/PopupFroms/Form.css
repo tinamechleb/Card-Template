@@ -9,6 +9,7 @@
   margin: auto;
   background-color: rgba(0,0,0, 0.5);
   z-index: 99999;
+  cursor: auto;
 }
 .popup_inner {
   position: absolute;
@@ -18,7 +19,91 @@
   bottom: 25%;
   margin: auto;
   border-radius: 5px;
-  background: white;
+  background: #ffffff;
   color:black;
   box-shadow: 0 2px 5px 0 rgba(1, 109, 91, 0.555),0 2px 10px 0 rgba(2, 117, 133, 0.5);
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+label {
+  color: rgb(0, 150, 177) !important;
+}
+
+.md-form input:not([type]), .md-form input[type="text"]:not(.browser-default), .md-form input[type="password"]:not(.browser-default), .md-form input[type="email"]:not(.browser-default), .md-form input[type="url"]:not(.browser-default), .md-form input[type="time"]:not(.browser-default), .md-form input[type="date"]:not(.browser-default), .md-form input[type="datetime"]:not(.browser-default), .md-form input[type="datetime-local"]:not(.browser-default), .md-form input[type="tel"]:not(.browser-default), .md-form input[type="number"]:not(.browser-default), .md-form input[type="search"]:not(.browser-default), .md-form input[type="phone"]:not(.browser-default), .md-form input[type="search-md"], .md-form textarea.md-textarea {
+
+    box-sizing: content-box;
+    background-color: transparent;
+
+border: none;
+
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+
+border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.md-form .form-control {
+
+    height: auto;
+    padding: 0.6rem 0 0.4rem 0;
+    margin: 0 0 0.5rem 0;
+    background-color: transparent;
+    border-radius: 0;
+
+}
+
+.form-control {
+
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.form-control {
+
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.Cancel-Button {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-weight: lighter;
+  color: gray;
+  font-size: 23px;
+  cursor: pointer;
 }

@@ -1,15 +1,57 @@
 import React from 'react';
-import { MDBInput } from 'mdbreact';
 import './Form.css';
+import {
+    MDBNavbar,
+    MDBNavbarBrand,
+    MDBNavbarNav,
+    MDBNavItem,
+    MDBNavLink,
+    MDBNavbarToggler,
+    MDBCollapse,
+    MDBMask,
+    MDBRow,
+    MDBCol,
+    MDBIcon,
+    MDBBtn,
+    MDBView,
+    MDBContainer,
+    MDBCard,
+    MDBCardBody,
+    MDBInput,
+    MDBFormInline,
+    MDBAnimation
+} from "mdbreact";
+
 
 class Popup extends React.Component {
     render() {
         return (
             <div className='popup'>
                 <div className='popup_inner'>
-                    <h1>{this.props.text}</h1>
-                    <MDBInput type="textarea" label="Material textarea" rows="5" />
-                    <button onClick={this.props.closePopup}>Cancel</button>
+                    <MDBCard id="classic-card">
+                        <MDBCardBody className="white-text">
+                            <h3 className="text-center">
+                                Add an Income
+                            </h3>
+                            <hr className="hr-light" />
+                            <MDBInput
+                                className="white-text"
+                                iconClass="white-text"
+                                label="Title"
+                            />
+                            <MDBInput
+                                className="white-text"
+                                iconClass="white-text"
+                                label="Description"
+                            />
+                            <div className="text-center mt-4 black-text">
+                                <MDBBtn color="indigo">Done</MDBBtn>
+                                <hr className="hr-light" />
+
+                            </div>
+                        </MDBCardBody>
+                    </MDBCard>
+                    <button onClick={this.props.closePopup} className="Cancel-Button">x</button>
                 </div>
             </div>
         );
