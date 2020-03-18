@@ -1,8 +1,35 @@
  .Income-Card {
     width: 190px;
     height: 2.5em;
+    background-color: #ffffffb2;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.ui.accordion .title ~ .content {
+    display: none;
+}
+
+.ui.accordion .active.content {
+    display: block;
+}
+
+#accordion-basic {
+    display: grid;
+    grid-template-columns: 69% 18% 15%;
+}
+
+.All-Info { 
+    width: 190px;
     margin-left: 3px;
-    background-color: #ffffff;
+    background-color: red;
     border-radius: 7px;
     display: flex;
     justify-content: space-between;
@@ -26,6 +53,7 @@
     width: 30px;
     height: 42px;
     margin-top: 6px;
+    cursor: pointer;
 }
 
 .Delete {
@@ -39,6 +67,8 @@
     background-size: 100%;
     margin-left: 5px;
 } 
+
+
 /* 
 input {
     width: 60px;

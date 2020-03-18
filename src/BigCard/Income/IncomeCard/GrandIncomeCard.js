@@ -1,42 +1,45 @@
 import React, { Component } from "react";
 import IncomeCard from './IncomeCard';
 import './IncomeCard.css';
+import { Accordion, Icon } from 'semantic-ui-react'
 
 
 class GrandIncomeCard extends Component {
 
-    render() {
+    state = { activeIndex: 0 }
+    handleClick = (e, titleProps) => {
+        const { index } = titleProps;
+        const { activeIndex } = this.state;
+        const newIndex = activeIndex === index ? -1 : index;
 
+        this.setState({ activeIndex: newIndex });
+    }
+
+    render() {
+        const { activeIndex } = this.state
         return (
+
             <div>
-                <IncomeCard />
-                {/* <div class="tab">
-                    <input id="tab-r1" type="radio" name="tabr" />
-                    <label for="tab-r1"><IncomeCard /></label>
-                    <div class="tab-things">
-                        <p>
-                            surprise
-                        </p>
-                    </div>
+                <div id="accordion-basic">
+                    <Accordion fluid styled>
+                        <Accordion.Title
+                            className="Income-Cardd"
+                            active={activeIndex === 1}
+                            index={1}
+                            onClick={this.handleClick}
+                        >
+                            <Icon name='dropdown' />
+                            <IncomeCard />
+                        </Accordion.Title>
+                        <Accordion.Content active={activeIndex === 1}>
+                            <p>
+                                surprise
+                            </p>
+                        </Accordion.Content>
+                    </Accordion>
+                    <div className="Image Delete" />
+                    <div className="Image Edit" />
                 </div>
-                <div class="tab">
-                    <input id="tab-2r" type="radio" name="tabr" />
-                    <label for="tab-2r"><IncomeCard /></label>
-                    <div class="tab-things">
-                        <p>
-                            surprise
-                        </p>
-                    </div>
-                </div>
-                <div class="tab">
-                    <input id="tab-3r" type="radio" name="tabr" />
-                    <label for="tab-3r"><IncomeCard /></label>
-                    <div class="tab-things">
-                        <p>
-                            surprise
-                        </p>
-                    </div>
-                </div> */}
             </div>
         )
     }

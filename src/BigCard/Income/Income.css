@@ -1,6 +1,6 @@
 .Income {
     display: grid;
-    grid-template-columns: 49% 2% 49%;
+    grid-template-columns: 50% 1% 49%;
     margin-top: -23px;
 }
 
@@ -45,4 +45,5 @@
   border: 1px solid #ffffff;
   border-radius: 5px;
   margin-left: 10px;
+  cursor: pointer;
 }
