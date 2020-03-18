@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import IncomeCard from './IncomeCard';
 import './IncomeCard.css';
-import { Accordion, Icon } from 'semantic-ui-react'
+import { Accordion } from 'semantic-ui-react'
 
 
 class GrandIncomeCard extends Component {
@@ -10,29 +10,40 @@ class GrandIncomeCard extends Component {
     handleClick = (e, titleProps) => {
         const { index } = titleProps;
         const { activeIndex } = this.state;
-        const newIndex = activeIndex === index ? -1 : index;
+        const newIndex = activeIndex === index ? -1 : index
 
         this.setState({ activeIndex: newIndex });
     }
 
+
     render() {
-        const { activeIndex } = this.state
+
+        let className = 'Income-Card';
+
+        const { activeIndex, newIndex } = this.state
+
+
+        if (activeIndex === 1) {
+            className += ' Active-Title';
+        }
+
         return (
 
             <div>
                 <div id="accordion-basic">
                     <Accordion fluid styled>
                         <Accordion.Title
-                            className="Income-Cardd"
                             active={activeIndex === 1}
                             index={1}
                             onClick={this.handleClick}
                         >
-                            <Icon name='dropdown' />
-                            <IncomeCard />
+                            <div className={className}>
+                                <p className="Income-Title">Title</p>
+                                <p className="Income-amount">800$</p>
+                            </div>
                         </Accordion.Title>
                         <Accordion.Content active={activeIndex === 1}>
-                            <p>
+                            <p className="surprise">
                                 surprise
                             </p>
                         </Accordion.Content>
